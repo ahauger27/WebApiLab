@@ -1,0 +1,15 @@
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/bin/Debug/net10.0/WebApiLab.Console
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/bin/Debug/net10.0/WebApiLab.Console.deps.json
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/bin/Debug/net10.0/WebApiLab.Console.runtimeconfig.json
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/bin/Debug/net10.0/WebApiLab.Console.dll
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/bin/Debug/net10.0/WebApiLab.Console.pdb
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.AssemblyInfoInputs.cache
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.AssemblyInfo.cs
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.csproj.CoreCompileInputs.cache
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.sourcelink.json
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.dll
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/refint/WebApiLab.Console.dll
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.pdb
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/WebApiLab.Console.genruntimeconfig.cache
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.Console/obj/Debug/net10.0/ref/WebApiLab.Console.dll
