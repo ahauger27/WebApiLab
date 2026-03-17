@@ -35,3 +35,4 @@
 /home/austin/Documents/coding/projects/WebApiLab/WebApiLab.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/austin/Documents/coding/projects/WebApiLab/WebApiLab.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/austin/Documents/coding/projects/WebApiLab/WebApiLab.API/bin/Debug/net10.0/Resources/64KB.json
+/home/austin/Documents/coding/projects/WebApiLab/WebApiLab.API/obj/Debug/net10.0/WebApiLab.API.sourcelink.json

@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
 string jsonFile = File.ReadAllText(path: "./Resources/64KB.json");
@@ -19,6 +21,8 @@ var jsonData = JsonSerializer.Deserialize<List<Person>>(
 app.MapGet("/people", () => jsonData)
     .WithName("GetPeople")
     .Produces<List<Person>>(statusCode: StatusCodes.Status200OK);
+
+app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

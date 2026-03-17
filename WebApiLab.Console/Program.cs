@@ -4,7 +4,7 @@ using WebApiLab.Console.Models;
 HttpClient client = new HttpClient();
 client.BaseAddress = new Uri("http://localhost:5115");
 
-HttpResponseMessage response = await client.GetAsync("/people");
+HttpResponseMessage response = await client.GetAsync("/api/People");
 
 if (response.IsSuccessStatusCode)
 {
