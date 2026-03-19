@@ -6,13 +6,16 @@ client.BaseAddress = new Uri("http://localhost:5115");
 
 HttpResponseMessage response = await client.GetAsync("/api/People");
 
+var options = new JsonSerializerOptions
+{
+    PropertyNameCaseInsensitive = true
+};
+
 if (response.IsSuccessStatusCode)
 {
     string jsonResponse = await response.Content.ReadAsStringAsync();
 
-    var people = JsonSerializer.Deserialize<List<Person>>(
-        jsonResponse,
-        new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    var people = JsonSerializer.Deserialize<List<Person>>(jsonResponse, options);
 
     foreach (var person in people)
     {
@@ -23,4 +26,20 @@ else
 {
     Console.WriteLine($"Error: {response.StatusCode}");
     Console.WriteLine(await response.Content.ReadAsStringAsync());
+}
+
+HttpResponseMessage singleResponse = await client.GetAsync("/api/People/V59OF92YF627HFY0");
+
+if (response.IsSuccessStatusCode)
+{
+    string jsonResponse = await singleResponse.Content.ReadAsStringAsync();
+
+    var person = JsonSerializer.Deserialize<Person>(jsonResponse, options);
+
+    Console.WriteLine($"{person.Name} speaks {person.Language}");
+}
+else
+{
+    Console.WriteLine($"Error: {singleResponse.StatusCode}");
+    Console.WriteLine(await singleResponse.Content.ReadAsStringAsync());
 }
